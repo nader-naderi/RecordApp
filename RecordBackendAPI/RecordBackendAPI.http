@@ -1,0 +1,6 @@
+@RecordBackendAPI_HostAddress = http://localhost:5127
+
+GET {{RecordBackendAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

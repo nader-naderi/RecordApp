@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordAppDesktopClient", "RecordApp\RecordAppDesktopClient.csproj", "{D99A5E7E-9AFA-420A-B6D4-3B8A48AB8357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{A7FD2ADF-0130-4C26-A16D-82F5F9B2F7F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{BA917393-2CB9-4A4C-922A-BF940FB05A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordBackendAPI", "RecordBackendAPI\RecordBackendAPI.csproj", "{A6A92F8E-A5BB-4CF1-A938-2CBDE508D75D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B9431B81-E635-432B-B3C8-23DCE49D72D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedData", "SharedData\SharedData.csproj", "{300E9CC6-4FCD-4204-83FD-DC0DD41489EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D99A5E7E-9AFA-420A-B6D4-3B8A48AB8357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99A5E7E-9AFA-420A-B6D4-3B8A48AB8357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99A5E7E-9AFA-420A-B6D4-3B8A48AB8357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99A5E7E-9AFA-420A-B6D4-3B8A48AB8357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A92F8E-A5BB-4CF1-A938-2CBDE508D75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A92F8E-A5BB-4CF1-A938-2CBDE508D75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A92F8E-A5BB-4CF1-A938-2CBDE508D75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A92F8E-A5BB-4CF1-A938-2CBDE508D75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300E9CC6-4FCD-4204-83FD-DC0DD41489EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300E9CC6-4FCD-4204-83FD-DC0DD41489EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300E9CC6-4FCD-4204-83FD-DC0DD41489EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300E9CC6-4FCD-4204-83FD-DC0DD41489EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D99A5E7E-9AFA-420A-B6D4-3B8A48AB8357} = {A7FD2ADF-0130-4C26-A16D-82F5F9B2F7F0}
+		{A6A92F8E-A5BB-4CF1-A938-2CBDE508D75D} = {BA917393-2CB9-4A4C-922A-BF940FB05A5C}
+		{300E9CC6-4FCD-4204-83FD-DC0DD41489EB} = {B9431B81-E635-432B-B3C8-23DCE49D72D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C4404F-5BD2-4658-A79B-72C110419230}
+	EndGlobalSection
+EndGlobal
